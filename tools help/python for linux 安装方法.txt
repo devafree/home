@@ -1,0 +1,14 @@
+1、下载python源码包(如：http://www.python.org/getit/)；
+2、解压：tar -xvjf Python-3.3.0.tar.bz2   或  tar -xvzf Python-3.3.0.tar.gz   或 tar -xvzf Python-3.3.0.tgz；
+3、安装Python-3.3.0
+4、cd Python-3.3.0
+   ./configure
+   make
+   make install(as root)
+   安装完成后，输入python，验证其是否安装成功。
+5、cd /usr/bin
+   ll | grep python //查看该目录下系统原有python版本
+   rm -rf python
+   ln -s $Python-3.3.0的安装路径/Python-3.3.0/python ./python  //可能需要root权限，可用sudo ...
+   python -V 或 python -version
+6、OK。
