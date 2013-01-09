@@ -9,6 +9,6 @@
 5、cd /usr/bin
    ll | grep python //查看该目录下系统原有python版本
    rm -rf python
-   ln -s $Python-3.3.0的安装路径/Python-3.3.0/python ./python  //可能需要root权限，可用sudo ...
+   ln -s $Python-3.3.0的安装路径/Python-3.3.0/python /usr/bin/python  //可能需要root权限，可用sudo ...
    python -V 或 python -version
 6、OK。
