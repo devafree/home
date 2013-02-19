@@ -34,7 +34,7 @@ public class WordLevel
 	
 	private boolean readWords(String strLevelName, List<String> words)
 	{
-		String fileName = ".\\bin\\" + strLevelName + ".txt";
+		String fileName = ".\\resources\\" + strLevelName + ".txt";
 		File file = new File(fileName);
 		if (!file.exists())
 		{
